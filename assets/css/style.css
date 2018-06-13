@@ -15,5 +15,28 @@ header {
 .mainI {
 
     padding-top: 50px;
+    margin-left: 20px;
+}
+
+.bioimage {
+
+    float: left;
+    padding: 15px, 15px;
+}
+
+.left {
+
+    float: right;
+}
+
+.aboutme {
+    padding-left: 50px;
 
 }
+.clearfix:after {
+    content: " "; /* Older browser do not support empty content */
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both;
+ }
