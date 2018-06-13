@@ -1,18 +1,60 @@
 header {
-    border: 10px 10px 10px 10px;
-    margin:10px 10px 10px 10px;
-    padding: 10px 10px 10px 10px;
+    border: 10px 0px 10px 0px;
+    margin:10px 0px 10px 0px;
+    padding: 10px 0px 35px 0px;
+    background: #ffffff13;
+    background-color: #ffffff13; 
+    
 }
 
+.about {
+
+    float: right;
+    padding: 1px 1px 1px 1px;
+    margin: 1px 1px 1px 1px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.portfolio {
+
+    float: right;
+    padding : 1px 1px 1px 2px;
+    margin : 1px 1px 1px 2px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contact {
+
+    float: right;
+    padding: 1px 1px 1px 2px;
+    margin: 1px 1px 1px 2px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box {
+
+    padding: 10px 10px;
+    margin: 40px 40px;
+}
 .hleft {
 
     float: left;
+    margin: 0px 0px 0px 40px;
 }
 
 .hright {
 
     float: right;
 }
+
+article {
+
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 7px;
+    color: #777777;
+    width: 1100px;
+ }
 
 .main {
 
@@ -23,17 +65,20 @@ header {
 .bioimage {
 
     float: left;
-    margin:5px 5px 5px 5px;
-    padding:5px 5px 5px 5px;
+    margin:5px 5px 4px 5px;
+    padding:5px 5px 3px 5px;
 }
 
 .left {
-
+    font-family: Georgia, 'Times New Roman', Times, serif;
     float: right;
 }
 
 .aboutme {
+    width: 1100px;
     padding-left: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   
 
 }
 .clearfix:after {
@@ -42,4 +87,18 @@ header {
     display: block;
     height: 0;
     clear: both;
+ }
+
+ body {
+
+    
+    background-image: url("../images/mainbackground.png");
+ }
+
+ footer {
+    background: #666666;
+    color: #777777;
+    border: 10px 0;
+    margin:10px 0;
+    padding: 10px 10px;
  }
