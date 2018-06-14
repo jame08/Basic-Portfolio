@@ -2,9 +2,8 @@ header {
     border: 10px 0px 10px 0px;
     margin:10px 0px 10px 0px;
     padding: 10px 0px 35px 0px;
-    background: #ffffff13;
-    background-color: #ffffff13; 
-    
+    background: WHITE;
+    height: 50px;
 }
 
 .about {
@@ -38,14 +37,23 @@ header {
     margin: 40px 40px;
 }
 .hleft {
-
     float: left;
-    margin: 0px 0px 0px 40px;
+    height: 37PX;
+    background-color: turquoise;
+    padding-top: 13px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    
 }
 
 .hright {
 
     float: right;
+    height: 37PX;
+    padding-top: 13px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 article {
@@ -102,3 +110,8 @@ article {
     margin:10px 0;
     padding: 10px 10px;
  }
+
+.cabeza {
+
+    margin: 0px 150px 0px 150px;
+}
