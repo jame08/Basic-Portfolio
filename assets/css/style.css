@@ -9,7 +9,7 @@ header {
 
 .headbor {
 
-    border-bottom: 3px solid turquoise;
+    border-bottom: 3px solid #48D1CC;
 }
 
 .about {
@@ -47,7 +47,7 @@ header {
 .hleft {
     float: left;
     height: 40PX;
-    background-color: turquoise;
+    background-color: #48D1CC;
     padding-top: 11px;
     padding-left: 10px;
     padding-right: 10px;
@@ -107,7 +107,7 @@ header {
 }
 .clearfix {
 
-    border-top: 6px solid turquoise;
+    border-top: 6px solid #48D1CC;
  }
 
  body {
