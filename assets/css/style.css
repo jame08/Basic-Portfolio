@@ -14,22 +14,29 @@ header {
 .navg{
 
     float: right;
-    padding: 1px 1px 1px 1px;
-    margin: 1px 1px 1px 1px;
+    padding: 1px;
+    margin: 1px 4px;
     font-family: Arial, Helvetica, sans-serif;
     
 }
 
 a:link {
-    color: white;
-    display: inline-block;
+    
 
+    text-decoration: none;
+  
+
+}
+a{
+    color: white;
 }
 a:hover {
 
     
     color: blue;
 }
+
+
 
 .box {
 
