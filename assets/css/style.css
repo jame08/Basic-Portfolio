@@ -22,8 +22,13 @@ header {
 
 a:link {
     color: white;
-    text-decoration: none;
+    display: inline-block;
 
+}
+a:hover {
+
+    
+    color: blue;
 }
 
 .box {
