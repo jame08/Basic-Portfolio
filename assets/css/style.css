@@ -79,12 +79,14 @@ header {
     color: #777777;
     width: 960px;
     height:400px; 
+    padding-left: 4px;
     line-height: 30px;
     letter-spacing: 3px;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
-    padding-left: 4px;
  }
+
+ 
 
 .main {
 
@@ -192,3 +194,22 @@ input[type=submit]:hover {
     margin: 20px;
 }
 
+.gallery {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.desc{
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    right:50%;
+    bottom: 5%;
+
+    transform: translate(-50%, -50%);
+    background: #48D1CC;
+    font-size: 14px;
+    text-align: center;
+    width: 200px;
+}
